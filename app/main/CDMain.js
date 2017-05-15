@@ -105,7 +105,10 @@ const styles = StyleSheet.create({
         backgroundColor: 'red',
         borderRadius: 9,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+
+        position: 'absolute',
+        top: -3
     },
     badgeTextStyle:{
         fontSize: 12,
