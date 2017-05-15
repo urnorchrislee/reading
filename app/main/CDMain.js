@@ -6,14 +6,14 @@ import {
   View
 } from 'react-native';
 
+import TabNavigator from 'react-native-tab-navigator';
+
 export default class extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native Mian!
-        </Text>
-      </View>
+        <TabNavigator>
+
+        </TabNavigator>
     );
   }
 }
