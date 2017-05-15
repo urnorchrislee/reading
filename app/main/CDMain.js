@@ -39,7 +39,7 @@ export default class extends Component {
                          <CDRead />
                      </TabNavigator.Item>
                 */}
-                {this._renderItem("Reading", 'icon_tabbar_homepage', 'icon_tabbar_homepage_selected', 'reading', <CDRead />, '10')}
+                {this._renderItem("Reading", 'icon_tabbar_homepage', 'icon_tabbar_homepage_selected', 'reading', <CDRead {...this.props}/>, '10')}
 
                 {/*park*/}
                 {this._renderItem("Parking", 'icon_tabbar_merchant_normal', 'icon_tabbar_merchant_selected', 'parking', <CDPark />, '1')}

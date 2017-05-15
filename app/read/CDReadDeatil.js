@@ -7,25 +7,16 @@ import {
     TouchableOpacity
 } from 'react-native';
 
-import CDReadDeatil from './CDReadDeatil';
-
 export default class extends Component {
     render() {
         return (
-            <TouchableOpacity style={styles.container} onPress={()=>this._pressMe()}>
+            <TouchableOpacity style={styles.container}>
                 <Text style={styles.welcome}>
-                    Read!
+                    你好 , 世界!
                 </Text>
             </TouchableOpacity>
         );
     }
-
-    _pressMe() {
-        this.props.navigator.push({
-            component: CDReadDeatil
-        });
-    }
-
 }
 
 const styles = StyleSheet.create({
